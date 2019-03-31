@@ -1,4 +1,4 @@
-This is test project using H2 embedded database, Spring Boot 2x and Angular 8
+This is test project using H2 embedded database, Spring Boot 2x and Angular CLI 7.0.4
 
 SQL dump was downloaded from http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 Scripts were modified to use in H2 database and are located in resources/database folder. Scripts are automatically 
