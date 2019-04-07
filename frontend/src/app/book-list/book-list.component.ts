@@ -112,7 +112,7 @@ export class BookListComponent implements OnInit {
     let bookRating = {userID: 278859, bookIsbn: isbn,
       bookRating: value};
     this.bookService.saveBookRating(bookRating).subscribe(response =>{
-        console.log(response);
+        this.getBooks();
       },
       (error)=>{
         console.log(error.error.message);
